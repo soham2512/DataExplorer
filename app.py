@@ -278,6 +278,8 @@ def main():
                     cust_data = df[selected_columns_names]
                     cust_plot = cust_data.plot.hist()
                     st.pyplot()
+                    cust_plot1 = cust_data.hist(column=selected_columns_names)
+                    st.pyplot()
 
                 # Custom Plot
                 elif type_of_plot:
