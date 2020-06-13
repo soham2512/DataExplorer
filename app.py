@@ -299,7 +299,7 @@ def main():
     customize = """
                         	<div style="background-color:#ff3b3b;">
                         	<p style="color:white;font-size:15px;padding:10px;text-align:Center;font-weight:bold;">
-                        	Made with ❤ by SOHAM SHAH
+                        	Made with by SOHAM SHAH
                         	<br>
                         	<a href="https://github.com/soham2512">Visit my Github !!</a>
                         	</p></div>
@@ -330,7 +330,7 @@ def main():
     customize = """
                             	<div style="background-color:#ff3b3b;">
                             	<p style="color:white;font-size:25px;padding:10px;text-align:Center;font-weight:bold;">
-                            	Made with ❤ by SOHAM SHAH
+                            	Made by SOHAM SHAH
                             	<br>
                             	<a href="https://github.com/soham2512">Visit my Github !!</a>
                             	</p></div>
