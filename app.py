@@ -272,6 +272,12 @@ def main():
                 elif type_of_plot == 'line':
                     cust_data = df[selected_columns_names]
                     st.line_chart(cust_data)
+		
+		
+                elif type_of_plot == 'histogram':
+                    cust_data = df[selected_columns_names]
+                    cust_plot = cust_data.plot.hist()
+                    st.pyplot()
 
                 # Custom Plot
                 elif type_of_plot:
