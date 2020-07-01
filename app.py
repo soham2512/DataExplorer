@@ -98,7 +98,7 @@ def main():
 
     st.sidebar.header("SELECT BELOW SERVICES")
 
-    selectactivity = ["Data-exploration & Insights", "Plotting and Graphing - Analytics"]
+    selectactivity = ["Select Service !!","Data-exploration & Insights", "Plotting and Graphing - Analytics"]
 
     choice = st.sidebar.selectbox("AVAILABLE SERVICES :", selectactivity)
 
